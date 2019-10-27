@@ -1,39 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androiddeft.loginandregistration"
-    android:layout_width="2.4in"
-    android:layout_height="4.29in">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 
-    <uses-permission android:name="android.permission.INTERNET" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#07113C"
+        >
 
-        <activity
-            android:name=".LoginActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Thong tin dang ky tai khoan"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Ten"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#fff"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtDT"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Dien thoai"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Email"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Mat khau"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtDC"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Dia Chi"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            >
 
-            <intent-filter>
-
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".RegisterActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
-        <activity android:name=".DashboardActivity" />
-    </application>
-
-</manifest>
-
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Nam"
+                android:textSize="20dp"
+                android:padding="15dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginLeft="50dp"
+                android:text="Nu"
+                android:textSize="20dp"
+                android:padding="15dp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF5722"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:text="DANG KY"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>
