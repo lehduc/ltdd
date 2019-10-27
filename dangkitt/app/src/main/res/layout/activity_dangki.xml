@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#07113C"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Thong tin dang ky tai khoan"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Ten"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#fff"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtDT"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Dien thoai"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Email"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Mat khau"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/txtDC"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Dia Chi"
+            android:textSize="20dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Nam"
+                android:textSize="20dp"
+                android:padding="15dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginLeft="50dp"
+                android:text="Nu"
+                android:textSize="20dp"
+                android:padding="15dp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF5722"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:text="DANG KY"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF5722"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:text="Hủy"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>
